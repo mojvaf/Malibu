@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 import { setColor, setFont } from '../../styles'
 
 const Globals = createGlobalStyle` 
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Srisakdi:wght@700&display=swap');
 *{
     margin:0;
     padding:0;
@@ -15,7 +15,8 @@ body{
 font-size:100%;   
 color:${setColor.mainBlack};
 background:${setColor.mainWhite};
-${setFont.main}
+${setFont.slanted};
+text-align:${props => props.center ? 'center' : 'left'}
 }
  
  h1{
@@ -38,7 +39,7 @@ font-size: 1em;font-weight:bold
 }
 
 p{
-    line-height:1.5em; margin:0 0 1.5 0;
+    line-height:1.5em; margin:0 0 1.5rem 0;
 }
 
 `

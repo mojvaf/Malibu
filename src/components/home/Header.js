@@ -15,6 +15,7 @@ const Header = () => {
                     text='Malibu is a city west of Los Angeles,California.Its known for its celebrity homes and beaches. ' >
 
                     <PrimaryBtn t='1rem'>View Details</PrimaryBtn>
+
                 </Banner>
             </Hero>
         </div>
