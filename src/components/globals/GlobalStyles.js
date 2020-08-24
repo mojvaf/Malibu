@@ -3,8 +3,6 @@ import { setColor, setFont } from '../../styles'
 
 const Globals = createGlobalStyle` 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@700&display=swap');
-
-
 *{
     margin:0;
     padding:0;
@@ -12,10 +10,12 @@ const Globals = createGlobalStyle`
 }
 
 body{
+ font-family: 'Lato', sans-serif;
+ font-family: 'Courgette', cursive;
 font-size:100%;   
 color:${setColor.mainBlack};
 background:${setColor.mainWhite};
-${setFont.main};
+${setFont.main}
 }
  
  h1{
