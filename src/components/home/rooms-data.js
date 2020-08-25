@@ -7,22 +7,22 @@ export default [
     {
         id: 1,
         img: room1,
-        title: 'basic economy',
+        title: 'Basic economy',
         info: "A king bed and small couch.",
         price: 125
     },
     {
         id: 2,
         img: room2,
-        title: 'presidential suite',
+        title: 'Presidential suite',
         info: " sunny room with big windows.",
         price: 250
     },
     {
         id: 3,
         img: room3,
-        title: 'standard queen room',
-        info: "A balcony two king beds with break fast.",
+        title: 'Standard queen room',
+        info: "A balcony a king beds with break fast.",
         price: 350
     },
 

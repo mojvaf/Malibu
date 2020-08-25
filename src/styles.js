@@ -30,6 +30,12 @@ export const setRem = (number = 16) => {
     return `${number / 16}rem`
 }
 
+export const setShadow = {
+    light: 'box-shadow: 3px 3px 32px 0px rgba(0, 0, 0, 0.75);',
+    dark: 'box-shadow: 6px 6px 32px 0px rgba(0,0,0,0.75);',
+    darkest: 'box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);'
+}
+
 export const setLetterSpacing = (number = 2) => {
     return `letter-spacing:${number}px`
 }
